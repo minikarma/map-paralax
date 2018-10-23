@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>PRLX</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <script src='js/d3.v4.min.js'></script>
+    <script src='js/turf.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; font-family: 'Fira Sans', sans-serif; }
+        #text { color: #fff; position:absolute; top:0; bottom:0; left: 0; width:100%; z-index: 200; font-size: 20px; overflow-y: auto; }
+        #map { position:absolute; top:0; bottom:0; left: 0; width:100%; z-index: 100; }
+        #text h2 { margin-left: 5%;  margin-right: 55%; font-size: 24px;  margin-bottom: 60px; }
+        #text p { opacity: 0.01; margin-left: 5%;  margin-right: 55%;  margin-bottom: 60px; }
+    </style>
+</head>
+<body>
+<div id='text'>
+  <div style="height: 5000px; width: 300px;"></div>
+</div>
+<div id='map'></div>
+<script src='js/app.js'></script>
+</body>
+</html>
