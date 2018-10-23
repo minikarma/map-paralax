@@ -7,8 +7,6 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/martinproject1/cjnfxj6053wz32rq8r9sija4o'
 });
 
-//https://api.mapbox.com/styles/v1/martinproject1/cjnfxj6053wz32rq8r9sija4o.html?fresh=true&title=true&access_token=pk.eyJ1IjoibWFydGlucHJvamVjdDEiLCJhIjoiY2ptdW93MXZrMDNjMTNrcGhmNTJ1ZGljdCJ9.9fC5LXUepNAYTKu8O162OA#9.6/40.7475/-73.8923/-11
-
 var minPitch = 0, maxPitch = 60, maxBase = 1000;
 
 var text = document.getElementById('text'),
